@@ -1,10 +1,9 @@
-"use client";
 import React from "react";
-import Link from "next/link";
+import { HomePage } from "@/pages/home-ui";
 const page = () => {
   return (
     <div>
-      <Link href="/home">asd</Link>
+      <HomePage />
     </div>
   );
 };
