@@ -1,11 +1,12 @@
 import React from "react";
-import { HomePage } from "@/pages/home-ui";
-const page = () => {
+import Homepage from "@/pages/homepage/index";
+
+const Page = () => {
   return (
     <div>
-      <HomePage />
+      <Homepage />
     </div>
   );
 };
 
-export default page;
+export default Page;

@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-const page = () => {
+
+const Page = () => {
   return (
     <div>
       <Link href="/home">asd</Link>
@@ -9,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
